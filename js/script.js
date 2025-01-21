@@ -73,19 +73,19 @@ document.addEventListener('DOMContentLoaded', () => {
 	
 	document.addEventListener('keydown', e => {
 		if (e.key === 'q' || e.key === 'й') {
-			updateClickedSpheres(spheres[0], '../img/spheres/quas.png', 'quas')
+			updateClickedSpheres(spheres[0], 'img/spheres/quas.png', 'quas')
 		}
 	})
 	
 	document.addEventListener('keydown', e => {
 		if (e.key === 'w' || e.key === 'ц') {
-			updateClickedSpheres(spheres[1], '../img/spheres/wex.png', 'wex')
+			updateClickedSpheres(spheres[1], 'img/spheres/wex.png', 'wex')
 		}
 	})
 	
 	document.addEventListener('keydown', e => {
 		if (e.key === 'e' || e.key === 'у') {
-			updateClickedSpheres(spheres[2], '../img/spheres/exort.png', 'exort')
+			updateClickedSpheres(spheres[2], 'img/spheres/exort.png', 'exort')
 		}
 	})
 	
