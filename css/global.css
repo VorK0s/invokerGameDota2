@@ -1,0 +1,51 @@
+body {
+    background-color: #0c0c0c;
+}
+
+.main {
+    text-align: center;
+    color: #f8f8f8;
+    margin: 0 auto;
+    background-color: #1a1a1a;
+    height: 50vh;
+    width: 700px;
+    border-radius: 20px;
+}
+
+.skill {
+    width: 85px;
+    margin-top: 60px;
+}
+
+.clicked_spheres {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row-reverse;
+}
+
+.clicked_sphere, .clicked_sphere img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #222222;
+}
+
+.spheres {
+    margin-top: 50px;
+}
+
+.sphere, .read_sphere {
+    margin: 0 15px;
+
+}
+
+.spheres .sphere.clicked, .spheres .read_sphere.clicked {
+    padding: 2px;
+    border: solid 2px rgb(94, 94, 94);
+}
+
+.hide {
+    display: none;
+}
